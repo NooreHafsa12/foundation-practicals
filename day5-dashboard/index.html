@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dynamic Student Dashboard</h1>
+
+        <form id="studentForm">
+            <input type="text" id="name" placeholder="Enter student name" required>
+            <input type="text" id="course" placeholder="Enter course" required>
+            <input type="number" id="marks" placeholder="Enter marks" required>
+            <button type="submit">Add Student</button>
+        </form>
+
+        <h2>Total Students: <span id="count">0</span></h2>
+
+        <div id="studentList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
